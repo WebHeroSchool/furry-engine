@@ -1,0 +1,98 @@
+a {
+  text-decoration: none;
+    color: white;
+}
+
+nav {
+  text-transform: uppercase;
+  width: auto;
+  background-color: #408DD2;
+  overflow: auto;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  text-align: center;
+  width: 100px;
+  float: left;
+  padding: 12px;
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
+  font-size: 17px;
+  border: 1px solid #26537C;
+  display: inline-block;
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+  .title {
+      font-size: 20px;
+    }
+  .menu-icon {
+      display: none;
+    }
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .title {
+      font-size: 18px;
+    }
+  .menu-icon {
+      display: none;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  .title {
+      font-size: 16px;
+    }
+  .menu-icon {
+      display: none;
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  .title {
+      font-size: 14px;
+    }
+  .menu-icon {
+      display: none;
+    }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  .title {
+      font-size: 12px;
+    }
+  .menu-icon {
+      display: none;
+    }
+}
+
+/* Iphone 5 */
+@media (max-width: 320px) {
+  .title {
+      font-size: 8px;
+    }
+    nav li {
+      float: none;
+      display: block;
+    }
+
+    .menu-icon {
+        display: block;
+      }
+
+    .nav-list {
+      display: none;
+    }
+}
